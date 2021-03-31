@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:id="@+id/ed1"
+    android:text="LOGIN PAGE"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30dp"
+        />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter Rool number" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter password" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:onClick="intent"/>
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="277dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Register" />
+</LinearLayout>
